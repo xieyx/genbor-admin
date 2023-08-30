@@ -1,7 +1,7 @@
 module.exports = {
   eslintInter: true,
-  // 一行最多 100 字符
-  printWidth: 100,
+  // 一行最多 120 字符
+  printWidth: 120,
   // 使用 2 个空格缩进
   tabWidth: 2,
   // 不使用缩进符，而使用空格
@@ -35,4 +35,7 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css',
   // 换行符使用 lf
   endOfLine: 'lf',
+  plugins: [
+    'prettier-plugin-tailwindcss' // MUST come last
+  ]
 };

@@ -20,7 +20,7 @@ export default function Demo({ laravelVersion, phpVersion }: DemoProps) {
         </div>
         <p className='mt-10 text-center text-sm text-gray-500'>You clicked {count} times</p>
 
-        <div className='ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0'>
+        <div className='ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:ml-0 sm:text-right'>
           Laravel v{laravelVersion} (PHP v{phpVersion})
         </div>
       </div>
