@@ -6,15 +6,15 @@
     "build": "vite build",
     "prepare": "husky install",
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx ./resources",
-    "lint:style": "stylelint \"resources/**/*.css\"",
-    "lint:prettier": "prettier -c --write \"resources/**/*\"",
+    "lint:style": "stylelint \"resources/**/*.{css,less,sass}\"",
+    "lint:prettier": "prettier -c --write \"resources/**/*.{ts,js,tsx,jsx,css,less,sass}\"",
     "lint-staged": "lint-staged",
     "commit": "./node_modules/cz-customizable/standalone.js"
   },
   "lint-staged": {
-    "resources/**/*.css": "stylelint",
+    "resources/**/*.{css,less,sass}": "stylelint",
     "resources/**/*.{js,jsx,ts,tsx}": "eslint --ext .js,.jsx,.ts,.tsx",
-    "resources/**/*.{js,jsx,tsx,ts,css,md,json}": "prettier --ignore-unknown --write"
+    "resources/**/*.{js,jsx,tsx,ts,css,less,sass,md,json}": "prettier --ignore-unknown --write"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.7.0",
