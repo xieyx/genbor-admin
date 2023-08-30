@@ -10,10 +10,10 @@ export default function Demo({ laravelVersion, phpVersion }: DemoProps) {
       <Head title='Demo' />
 
       <div className='py-12'>
-        <div>
+        <div className='relative flex items-center justify-center'>
           <button
-            type='submit'
-            className='flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+            type='button'
+            className='mx-5 transform rounded-md bg-blue-600 px-4 py-3 text-white shadow-lg outline-none transition-transform hover:ring-4 active:scale-75'
             onClick={() => setCount(count + 1)}>
             Click me
           </button>
