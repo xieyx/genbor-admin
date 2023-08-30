@@ -16,7 +16,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Demo', [
+    return Inertia::render('demo', [
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
     ]);
