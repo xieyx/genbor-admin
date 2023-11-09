@@ -14,7 +14,7 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "true",
+    "APP_DEBUG": "false",
     "APP_URL": "https://genbor.coolhub.cn",
 
     "APP_CONFIG_CACHE": "/tmp/config.php",
@@ -29,6 +29,7 @@
     "SESSION_DRIVER": "cookie",
     "APP_KEY": "base64:vNji/z79S4rGaXvd6bCbM8V8Df1I/0kP6OeaQD/OUpw=",
     "DB_CONNECTION": "sqlite",
-    "DB_HOST": "127.0.0.1"
+    "DB_HOST": "127.0.0.1",
+    "IS_HTTPS": "true"
   }
 }
