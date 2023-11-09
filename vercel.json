@@ -31,7 +31,6 @@
     "CACHE_DRIVER": "array",
     "LOG_CHANNEL": "stderr",
     "SESSION_DRIVER": "cookie",
-    "APP_KEY": "base64:vNji/z79S4rGaXvd6bCbM8V8Df1I/0kP6OeaQD/OUpw=",
     "DB_CONNECTION": "sqlite",
     "DB_HOST": "127.0.0.1",
     "IS_HTTPS": "true"
